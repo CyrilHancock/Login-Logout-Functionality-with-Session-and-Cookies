@@ -25,8 +25,8 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
-m
-mongoose.connect("mongodb+srv://admin-cyrilh:test123@cluster0.rvjis.mongodb.net/todolistDB");
+
+mongoose.connect("mongodb+srv://admin-cyrilh:test123@cluster0.rvjis.mongodb.net/SecretsDB");
 
 const userSchema = new mongoose.Schema({
     email: String,
