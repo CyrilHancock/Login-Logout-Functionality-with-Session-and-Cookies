@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(
     session({
-        secret: "Our Little Secret.",
+        secret: "<your secret key can be anything>",
         resave: false,
         saveUninitialized: false,
     })
@@ -26,7 +26,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb+srv://admin-cyrilh:test123@cluster0.rvjis.mongodb.net/SecretsDB");
+mongoose.connect("mongodb+srv://admin<username>:<password>@cluster0.rvjis.mongodb.net/SecretsDB");
 
 const userSchema = new mongoose.Schema({
     email: String,
