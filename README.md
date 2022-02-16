@@ -11,7 +11,7 @@ Clone the repository by typing
 git clone https://github.com/CyrilHancock/Login-Logout-Functionality-with-Session-and-Cookies.git
 ```
 1. Change process.env.PORT to 3000 in **app.js**.
-2. Modify the mongodb url to Local **mongodb://localhost:27017/PostDB** 
+2. Modify the mongodb url to Local **mongodb://localhost:27017/UserDB** 
 3. mongodb atlas for atlas it will be ```mongodb+srv://admin-yourusername:yourpassword@cluster0.rvjis.mongodb.net/postDB ```
 4. And execute
 5. For Starting mongo on WINDOWS visit **https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/**
